@@ -7,7 +7,7 @@ Now, we're open-sourcing Wordflick under the MIT License! We invite developers, 
 ---
 
 ## Gameplay Demo
-![Wordflick Introduction](assets/screenshot-sim.png|240)
+![Wordflick Introduction](assets/screenshot-sim.png)
 ![Wordflick Gameplay](assets/foutput_320.gif)
 
 ---
