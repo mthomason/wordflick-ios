@@ -123,4 +123,4 @@ Thank you for helping us bring Wordflick back to life!
 
 ## 📧 Contact
 
-Have questions, suggestions, or feedback? Reach out to us via [email or contact info] or open an issue in the repository.
+Have questions, suggestions, or feedback? Reach out to us or open an issue in the repository.
