@@ -7,8 +7,9 @@ Now, we're open-sourcing Wordflick under the MIT License! We invite developers, 
 ---
 
 ## Gameplay Demo
-![Wordflick Introduction](assets/screenshot-sim.png)
-![Wordflick Gameplay](assets/foutput_320.gif)
+
+<img src="assets/screenshot-sim.png" alt="Wordflick Introduction" width="240">
+<img src="assets/foutput_320.gif" alt="Wordflick Gameplay" width="220">
 
 ---
 
@@ -50,7 +51,8 @@ This open-source release includes the core game functionality as it exists today
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/wordflick.git cd wordflick
+git clone https://github.com/yourusername/wordflick.git
+cd wordflick
 ```
 
 2. Open the project in Xcode:
@@ -85,7 +87,8 @@ git checkout -b feature-or-fix-name
 3. Commit your changes and push them to your fork:
 
 ```bash
-git commit -m "Add detailed description of your changes" git push origin feature-or-fix-name
+git commit -m "Add detailed description of your changes"
+git push origin feature-or-fix-name
 ```
 
 4. Submit a pull request with a clear description of your updates.
