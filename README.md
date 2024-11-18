@@ -51,7 +51,7 @@ This open-source release includes the core game functionality as it exists today
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/wordflick.git
+git clone https://github.com/mthomason/wordflick-ios.git
 cd wordflick
 ```
 
