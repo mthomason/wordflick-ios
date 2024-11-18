@@ -11,7 +11,8 @@ Resources/Wordflick-Jr/
 Resources/Wordflick-Fast-Break/
 Resources/Sounds/Unused/
 
-## Photoshop Files
+## Image Source Files
+*.eps
 *.psd
 
 ## User settings
