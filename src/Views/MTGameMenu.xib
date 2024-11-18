@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" id="cA9-0z-EgO" customClass="WFMenuView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="19d-SD-bfj">
+                    <rect key="frame" x="47" y="0.0" width="320" height="460"/>
+                    <subviews>
+                        <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="UIImageIntroduction.png" translatesAutoresizingMaskIntoConstraints="NO" id="f4b-7Y-V5V">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="460" id="NKw-oU-vVI"/>
+                                <constraint firstAttribute="width" constant="320" id="SFc-0P-zV6"/>
+                            </constraints>
+                        </imageView>
+                        <tableView opaque="NO" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="C6H-JQ-O4u">
+                            <rect key="frame" x="37.5" y="100" width="245" height="297"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="245" id="238-tI-AEr"/>
+                                <constraint firstAttribute="height" constant="297" id="SDY-2U-22z"/>
+                            </constraints>
+                        </tableView>
+                        <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jry-ra-FJQ" userLabel="LogoView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="174"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view tag="101" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yq7-uu-OfF" customClass="WFTileView">
+                                    <rect key="frame" x="18" y="16" width="98" height="98"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view tag="102" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wnW-2U-8Eb" customClass="WFTileView">
+                                    <rect key="frame" x="84" y="10" width="84" height="84"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view tag="103" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ulQ-bQ-yQD" customClass="WFTileView">
+                                    <rect key="frame" x="140" y="7" width="94" height="94"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view tag="104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zTj-ws-tJh" customClass="WFTileView">
+                                    <rect key="frame" x="197" y="15" width="94" height="94"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view tag="105" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yyT-Op-Wzh" customClass="WFTileView">
+                                    <rect key="frame" x="10" y="78" width="90" height="90"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view tag="106" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ktM-tk-gtg" customClass="WFTileView">
+                                    <rect key="frame" x="63" y="75" width="84" height="84"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view tag="107" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXh-wW-LWN" customClass="WFTileView">
+                                    <rect key="frame" x="110" y="70" width="94" height="94"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view tag="108" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Czo-5g-Sj5" customClass="WFTileView">
+                                    <rect key="frame" x="169" y="75" width="84" height="84"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view tag="109" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iMd-QE-5XH" customClass="WFTileView">
+                                    <rect key="frame" x="227" y="80" width="84" height="84"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    <constraints>
+                        <constraint firstItem="f4b-7Y-V5V" firstAttribute="top" secondItem="19d-SD-bfj" secondAttribute="top" id="555-Zn-IZr"/>
+                        <constraint firstItem="f4b-7Y-V5V" firstAttribute="centerX" secondItem="19d-SD-bfj" secondAttribute="centerX" id="OVs-Sr-efh"/>
+                        <constraint firstAttribute="width" constant="320" id="V1q-s4-dnV"/>
+                        <constraint firstItem="C6H-JQ-O4u" firstAttribute="top" secondItem="19d-SD-bfj" secondAttribute="top" constant="100" id="VxO-cn-ahw"/>
+                        <constraint firstItem="C6H-JQ-O4u" firstAttribute="centerX" secondItem="19d-SD-bfj" secondAttribute="centerX" id="dep-kz-Z0l"/>
+                        <constraint firstAttribute="height" constant="460" id="dqB-yQ-wzm"/>
+                    </constraints>
+                </view>
+                <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gu-AC-6Ea">
+                    <rect key="frame" x="8" y="8" width="44" height="44"/>
+                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="LHc-6d-EzB"/>
+                        <constraint firstAttribute="width" constant="44" id="qHZ-Bj-oYM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9kK-So-wyi">
+                    <rect key="frame" x="362" y="8" width="44" height="44"/>
+                    <subviews>
+                        <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZe-sp-CSh">
+                            <rect key="frame" x="9.5" y="10" width="25" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="ECo-0f-I1y"/>
+                        <constraint firstAttribute="width" constant="44" id="rWj-fD-zwl"/>
+                        <constraint firstItem="BZe-sp-CSh" firstAttribute="centerX" secondItem="9kK-So-wyi" secondAttribute="centerX" id="u94-Ex-dmY"/>
+                        <constraint firstItem="BZe-sp-CSh" firstAttribute="centerY" secondItem="9kK-So-wyi" secondAttribute="centerY" id="yGb-bS-hnK"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="9gu-AC-6Ea" firstAttribute="leading" secondItem="cA9-0z-EgO" secondAttribute="leading" constant="8" id="759-8G-Bpw"/>
+                <constraint firstAttribute="trailing" secondItem="9kK-So-wyi" secondAttribute="trailing" constant="8" id="81H-Em-mKL"/>
+                <constraint firstItem="9gu-AC-6Ea" firstAttribute="top" secondItem="cA9-0z-EgO" secondAttribute="top" constant="8" id="JIU-Yk-Yhs"/>
+                <constraint firstItem="19d-SD-bfj" firstAttribute="centerX" secondItem="cA9-0z-EgO" secondAttribute="centerX" id="Pms-b7-E1a"/>
+                <constraint firstItem="9kK-So-wyi" firstAttribute="top" secondItem="cA9-0z-EgO" secondAttribute="top" constant="8" id="iwg-ra-POg"/>
+                <constraint firstItem="19d-SD-bfj" firstAttribute="top" secondItem="cA9-0z-EgO" secondAttribute="top" id="w00-zC-khj"/>
+            </constraints>
+            <connections>
+                <outlet property="container" destination="19d-SD-bfj" id="eYO-Sz-ANJ"/>
+                <outlet property="logoView" destination="jry-ra-FJQ" id="Lwp-I8-fvv"/>
+                <outlet property="settings" destination="BZe-sp-CSh" id="yhj-ws-RW1"/>
+                <outlet property="tableView" destination="C6H-JQ-O4u" id="kVY-lP-YsB"/>
+                <outlet property="volume" destination="9gu-AC-6Ea" id="FyG-Zs-MTL"/>
+                <outletCollection property="gameTiles" destination="ulQ-bQ-yQD" id="Ne4-bJ-5vK"/>
+                <outletCollection property="gameTiles" destination="Yq7-uu-OfF" id="M0X-Z1-RKT"/>
+                <outletCollection property="gameTiles" destination="wnW-2U-8Eb" id="ZxI-4A-qxW"/>
+                <outletCollection property="gameTiles" destination="zTj-ws-tJh" id="Vy6-OM-YcT"/>
+                <outletCollection property="gameTiles" destination="yyT-Op-Wzh" id="3Pj-ps-08L"/>
+                <outletCollection property="gameTiles" destination="ktM-tk-gtg" id="50g-zV-fbx"/>
+                <outletCollection property="gameTiles" destination="CXh-wW-LWN" id="TJf-Fk-lER"/>
+                <outletCollection property="gameTiles" destination="Czo-5g-Sj5" id="v4Q-IE-wsQ"/>
+                <outletCollection property="gameTiles" destination="iMd-QE-5XH" id="43D-fx-9n2"/>
+            </connections>
+            <point key="canvasLocation" x="-29" y="-497"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="UIImageIntroduction.png" width="320" height="480"/>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

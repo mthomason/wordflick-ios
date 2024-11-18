@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A</key>
+	<integer>1</integer>
+	<key>B</key>
+	<integer>3</integer>
+	<key>C</key>
+	<integer>3</integer>
+	<key>D</key>
+	<integer>2</integer>
+	<key>E</key>
+	<integer>1</integer>
+	<key>F</key>
+	<integer>4</integer>
+	<key>G</key>
+	<integer>2</integer>
+	<key>H</key>
+	<integer>4</integer>
+	<key>I</key>
+	<integer>1</integer>
+	<key>J</key>
+	<integer>8</integer>
+	<key>K</key>
+	<integer>5</integer>
+	<key>L</key>
+	<integer>1</integer>
+	<key>M</key>
+	<integer>3</integer>
+	<key>N</key>
+	<integer>1</integer>
+	<key>O</key>
+	<integer>1</integer>
+	<key>P</key>
+	<integer>3</integer>
+	<key>Q</key>
+	<integer>10</integer>
+	<key>R</key>
+	<integer>1</integer>
+	<key>S</key>
+	<integer>1</integer>
+	<key>T</key>
+	<integer>1</integer>
+	<key>U</key>
+	<integer>1</integer>
+	<key>V</key>
+	<integer>4</integer>
+	<key>W</key>
+	<integer>4</integer>
+	<key>X</key>
+	<integer>8</integer>
+	<key>Y</key>
+	<integer>4</integer>
+	<key>Z</key>
+	<integer>10</integer>
+</dict>
+</plist>
