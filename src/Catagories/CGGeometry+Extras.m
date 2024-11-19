@@ -8,6 +8,11 @@
 
 #import "CGGeometry+Extras.h"
 
+/*
+ These functions were used for the animation geometry.
+ They are now defined in WFGameViewController.
+ */
+
 __attribute__((unused)) static inline uint32_t IntervalForLevelKey(NSInteger);
 
 __attribute__((unused)) static inline NSTimeInterval TimeIntervalForLevel(NSInteger);

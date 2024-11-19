@@ -588,7 +588,6 @@
 		4C8C315523C1D9A200AB682F /* MTWordNerdControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTWordNerdControllerProtocol.h; sourceTree = "<group>"; };
 		4C8C315623C1E40900AB682F /* MTControllerCompletedProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTControllerCompletedProtocol.h; sourceTree = "<group>"; };
 		4C8C315723C2378400AB682F /* MTGameControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGameControllerProtocol.h; sourceTree = "<group>"; };
-		4C8C315823C23B6C00AB682F /* MTGameTileViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGameTileViewProtocol.h; sourceTree = "<group>"; };
 		4C8C315923C23C5B00AB682F /* MTTileDataProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTileDataProtocol.h; sourceTree = "<group>"; };
 		4C8C315A23C23F5F00AB682F /* MTPreLevelControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPreLevelControllerProtocol.h; sourceTree = "<group>"; };
 		4C8C315B23C24D3B00AB682F /* MTPauseScreenControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPauseScreenControllerProtocol.h; sourceTree = "<group>"; };
@@ -1330,7 +1329,6 @@
 				4CB9A10F23AF6C0000D077DE /* MTTimerProtocol.h */,
 				4C6E776323C11FB400B58C13 /* MTGameActionProtocol.h */,
 				4C8C315623C1E40900AB682F /* MTControllerCompletedProtocol.h */,
-				4C8C315823C23B6C00AB682F /* MTGameTileViewProtocol.h */,
 				4C8C315923C23C5B00AB682F /* MTTileDataProtocol.h */,
 				4C8C315A23C23F5F00AB682F /* MTPreLevelControllerProtocol.h */,
 				4C8C315C23C259EE00AB682F /* MTPostLevelControllerProtocol.h */,
