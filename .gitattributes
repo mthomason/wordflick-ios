@@ -1,2 +1,66 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# --- Language Overrides ---
+# Ensure Objective-C files are recognized correctly
+*.m linguist-language=Objective-C
+*.h linguist-language=Objective-C
+*.mm linguist-language=Objective-C++
+
+# Ensure SQL files are counted as code
+*.sql linguist-language=SQL
+
+# Treat `.c` files as C
+*.c linguist-language=C
+
+# --- Vendored and Ignored Files ---
+# Ignore unnecessary files from language statistics
+.DS_Store linguist-vendored
+*.plist linguist-vendored
+*.strings linguist-vendored
+*.sample linguist-vendored
+*.json linguist-vendored
+*.yaml linguist-vendored
+*.gch linguist-vendored
+*.o linguist-vendored
+*.xcactivitylog linguist-vendored
+*.xcsettings linguist-vendored
+*.xcent linguist-vendored
+*.psd linguist-vendored
+
+# Ignore assets like images and fonts
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.tif linguist-vendored
+*.tiff linguist-vendored
+*.eps linguist-vendored
+*.svg linguist-vendored
+
+# Ignore compiled binaries and generated files
+*.caf linguist-vendored
+*.dia linguist-vendored
+*.d linguist-vendored
+*.dat linguist-vendored
+*.o linguist-vendored
+*.db linguist-vendored
+*.der linguist-vendored
+
+# Ignore localization files
+*.lproj/* linguist-vendored
+*.xib linguist-vendored
+*.storyboard linguist-vendored
+
+# --- Treat Text and Source Files as Code ---
+# Mark typical text and source files
+*.txt text
+*.md text
+*.yaml text
+
+# --- Exclude Build and IDE Artifacts ---
+# Ignore Xcode user and build settings
+*.xcuserdata linguist-vendored
+*.xcbuild linguist-vendored
+*.xcworkspace linguist-vendored
+*.xcschemes linguist-vendored
+
