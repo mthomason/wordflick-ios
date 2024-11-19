@@ -135,9 +135,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 	if ([segue.identifier isEqualToString:@"seguePlay"]) {
-		//if ([segue isKindOfClass:[MUIViewControllerGameWordPuzzle class]]) {
-			[segue.destinationViewController setDelegate: self];
-		//}
+		[segue.destinationViewController setDelegate: self];
 		if (sender != nil) {    //This is the case when restarting
 			NSInteger startingLevel = [sender longValue];
 			MNSGame *game = [[MNSGame alloc] initWithType: [self gametype]
@@ -150,25 +148,6 @@
 		}
 	}
 }
-/*
- - (void)viewWillTransitionToSize:(CGSize)size
-		withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
-	 [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
-	 
-	 self.presentationWrappingView.clipsToBounds = YES;
-	 self.presentationWrappingView.layer.shadowOpacity = 0.0f;
-	 self.presentationWrappingView.layer.shadowRadius = 0.0f;
-	 
-	 [coordinator animateAlongsideTransition: NULL
-								  completion: ^(id<UIViewControllerTransitionCoordinatorContext> context) {
-		 self.presentationWrappingView.clipsToBounds = NO;
-		 self.presentationWrappingView.layer.shadowOpacity = 0.63f;
-		 self.presentationWrappingView.layer.shadowRadius = 17.0f;
-	 }];
- }
-
- */
-
 
 - (void)willTransitionToTraitCollection:(UITraitCollection *)newCollection
 			  withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator>)coordinator {
@@ -204,43 +183,13 @@
 		//[UIView animateWithDuration:duration animations:^{
 		//	[self.tableViewMain setFrame:newFrame];
 		//}];
-
 	}
-	
-	
 }
 
 - (void)viewWillTransitionToSize:(CGSize)size
 	   withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
 	[super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
 }
-
-/*
-- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
-	[super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
-	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
-		if (UIInterfaceOrientationIsPortrait(toInterfaceOrientation)) {
-			CGRect currentframe = [self.tableViewMain frame];
-			CGRect newFrame = CGRectMake(currentframe.origin.x, currentframe.origin.y, 245.0, 297.0);
-			[UIView animateWithDuration:duration animations:^{
-				[self.tableViewMain setFrame:newFrame];
-			}];
-		} else {
-			CGRect currentframe = [self.tableViewMain frame];
-			CGRect newFrame = CGRectMake(currentframe.origin.x, currentframe.origin.y, currentframe.size.width, 300.0 - currentframe.origin.y);
-			[UIView animateWithDuration:duration animations:^{
-				[self.tableViewMain setFrame:newFrame];
-			}];
-		}
-	}
-}
-*/
-
-/*
-- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
-	[super didRotateFromInterfaceOrientation:fromInterfaceOrientation];
-}
-*/
 
 #pragma mark -
 #pragma mark Word Puzzle Delegate
@@ -356,28 +305,16 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	NSInteger lvl = [[tableView cellForRowAtIndexPath:indexPath] tag];
-	//MKStoreManager *storeManager = [MKStoreManager sharedManager];
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 	NSInteger cost = [MNSGame costForGame:[self gametype] andLevel:lvl];
-	//if ([storeManager canConsumeProduct:kUserClassConsumableGoldCoin quantity:(int)cost]) {
-		if (lvl > 0) {
-			//[storeManager consumeProduct:kUserClassConsumableGoldCoin quantity:(int)cost];
-			[MNSAudio playButtonPress];
-			[self performSegueWithIdentifier:@"seguePlay" sender:@(lvl)];
-			if (cost > 0) {
-				[MNSAudio playCoinOne];
-			}
-			[MNSUser CurrentUser].askToResume = NO;
+	if (lvl > 0) {
+		[MNSAudio playButtonPress];
+		[self performSegueWithIdentifier:@"seguePlay" sender:@(lvl)];
+		if (cost > 0) {
+			[MNSAudio playCoinOne];
 		}
-	//} else {
-		//NSString *title = [[NSString alloc] initWithString:NSLocalizedString (@"Not Enough Tokens", @"Title to message box.")];;
-		//NSString *body = [[NSString alloc] initWithString:NSLocalizedString (@"You do not have enough tokens to play this game.  Please purchase more tokens from the store.", @"Body to message box.")];
-		//NSString *button = [[NSString alloc] initWithString:NSLocalizedString(@"Continue", @"Continue playing button title.")];
-		//UIAlertViewQuick(title, body, button);
-		//[button release];
-		//[body release];
-		//[title release];
-	//}
+		[MNSUser CurrentUser].askToResume = NO;
+	}
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
