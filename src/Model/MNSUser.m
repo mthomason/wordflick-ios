@@ -13,7 +13,6 @@
 #import "wordPuzzleAppDelegate.h"
 #import "MTWordValue.h"
 #import "MTSqliteWrapper.h"
-//#import "MTSqliteBoolean.h"
 #import "MNSGame.h"
 #import "WFLevelStatistics.h"
 #import "DatabaseUsers.h"
@@ -33,13 +32,8 @@
 @property (nonatomic, retain) NSMutableDictionary <NSString *, GKAchievement *> *storedAchievements;
 @property (nonatomic, retain, readwrite) NSMutableDictionary *restartData;
 
-// resubmit any local instances of GKAchievement that was stored on a failed submission.
 - (void)resubmitStoredAchievements;
-
-// write all stored achievements for future resubmission
 - (void)writeStoredAchievements;
-
-// store an achievement for future resubmit
 - (void)storeAchievement:(GKAchievement *)achievement;
 
 @end
@@ -511,16 +505,13 @@ static void submitAchievementWithIdentifier(MNSUser *object, NSString *identifie
 				toplevelattained                    = self.highestLevelUnlocked;
 			}
 		} else {
-			//NSLog(@"Caught %s",  sqlite3_errmsg([[DatabaseUsers sharedInstance] database]->database));
+			NSLog(@"Caught %s",  sqlite3_errmsg([[DatabaseUsers sharedInstance] database]->database));
 		}
-		//gameTypeString = nil;
-		//[gameTypeString release];
 		sqlite3_finalize(statement);
 		sqlite3_free(sql);
 	}
 
 	if (!isGameOver) toplevelattained++;
-	//toplevelattained = (toplevelattained > ([statistics level] + 1)) ? toplevelattained : ([statistics level] + 1);
 	
 	char *sql2 = NULL;
 
@@ -1156,10 +1147,8 @@ static void submitAchievementWithIdentifier(MNSUser *object, NSString *identifie
 	return nil;
 }
 
-- (void)setRestartData:(NSMutableDictionary *)restartData {
-	
-}
-
+#warning There's an issue with the save of the game data, or with the restore of the game data.
+// It didn't make it past the last level of refactoring.
 - (void)saveYourGame {
 	if (self.game == nil || self.game.isGameOver) return;
 	
@@ -1219,18 +1208,5 @@ static void submitAchievementWithIdentifier(MNSUser *object, NSString *identifie
 
 	restartPlist = nil;
 }
-
-/*
-
-- (void)awardCoins:(NSInteger)count ofType:(MNSCoinType)coinType {
-	NSString *key;
-	keyForCoinType(coinType, &key);
-	NSInteger numberTokens = 0;// [[MKStoreManager numberForKey:key] integerValue];
-	numberTokens = numberTokens + count;
-	//NSNumber *co = [NSNumber numberWithInteger:numberTokens];
-	//[MKStoreManager setObject:co forKey:key];
-}
-
-*/
 
 @end
