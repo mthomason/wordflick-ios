@@ -64,11 +64,11 @@
 }
 
 + (NSString * _Nullable)restartPlistDocumentDirectoryPath {
-	return [MTFileController urlForFile:@"2291.plist" directory:NSApplicationSupportDirectory].path;
+	return [MTFileController urlForFile:@"restart.plist" directory:NSApplicationSupportDirectory].path;
 }
 
 + (NSString * _Nullable)restartPlistApplicationBundlePath {
-	return [[NSBundle mainBundle] URLForResource:@"2291" withExtension:@"plist"].path;
+	return [[NSBundle mainBundle] URLForResource:@"restart" withExtension:@"plist"].path;
 }
 
 @end

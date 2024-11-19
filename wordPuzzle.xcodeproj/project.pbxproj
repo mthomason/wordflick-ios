@@ -51,7 +51,7 @@
 		4C4A90F018CBAF3900C35BA1 /* MUIImageGradentControl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C650626106570E300542856 /* MUIImageGradentControl.png */; };
 		4C4A90F118CBAF3900C35BA1 /* MUIImageShuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C65062F106570E300542856 /* MUIImageShuffle.png */; };
 		4C4A90F418CBAF3900C35BA1 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE219CB10A31B88005F79BE /* settings.plist */; };
-		4C4A90F518CBAF3900C35BA1 /* 2291.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9D79210B4849B00EF444E /* 2291.plist */; };
+		4C4A90F518CBAF3900C35BA1 /* restart.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9D79210B4849B00EF444E /* restart.plist */; };
 		4C4A90F618CBAF3900C35BA1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CED223810EA48D70031BA1D /* Localizable.strings */; };
 		4C4A90F718CBAF3900C35BA1 /* letters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C45CB3B10EAB5DB00B94EE2 /* letters.plist */; };
 		4C4A90F818CBAF3900C35BA1 /* points.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB1760410EEC2E4000B9096 /* points.plist */; };
@@ -250,7 +250,7 @@
 		4C9F94D01643622700A562B9 /* UIImagePatternCarbonFiber.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9F94CC1643622700A562B9 /* UIImagePatternCarbonFiber.png */; };
 		4C9F94D21643622700A562B9 /* UIImagePatternCarbonFiber@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9F94CD1643622700A562B9 /* UIImagePatternCarbonFiber@2x.png */; };
 		4C9F94D41643622700A562B9 /* UIImagePatternCarbonFiber@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9F94CD1643622700A562B9 /* UIImagePatternCarbonFiber@2x.png */; };
-		4CA9D79310B4849B00EF444E /* 2291.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9D79210B4849B00EF444E /* 2291.plist */; };
+		4CA9D79310B4849B00EF444E /* restart.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9D79210B4849B00EF444E /* restart.plist */; };
 		4CAD1B55151EE66700A71667 /* TableViewControllerPreLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD1B54151EE66700A71667 /* TableViewControllerPreLevel.m */; };
 		4CAD1B58151EE69500A71667 /* TableViewControllerPostLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD1B57151EE69500A71667 /* TableViewControllerPostLevel.m */; };
 		4CAD1B5B151EE6AA00A71667 /* TableViewControllerGameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD1B5A151EE6AA00A71667 /* TableViewControllerGameOver.m */; };
@@ -298,7 +298,7 @@
 		4CC6455C157E418E003AE579 /* MUIImageGradentControl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C650626106570E300542856 /* MUIImageGradentControl.png */; };
 		4CC6455D157E418E003AE579 /* MUIImageShuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C65062F106570E300542856 /* MUIImageShuffle.png */; };
 		4CC64560157E418E003AE579 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE219CB10A31B88005F79BE /* settings.plist */; };
-		4CC64561157E418E003AE579 /* 2291.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9D79210B4849B00EF444E /* 2291.plist */; };
+		4CC64561157E418E003AE579 /* restart.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9D79210B4849B00EF444E /* restart.plist */; };
 		4CC64562157E418E003AE579 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CED223810EA48D70031BA1D /* Localizable.strings */; };
 		4CC64563157E418E003AE579 /* letters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C45CB3B10EAB5DB00B94EE2 /* letters.plist */; };
 		4CC64564157E418E003AE579 /* points.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB1760410EEC2E4000B9096 /* points.plist */; };
@@ -642,7 +642,7 @@
 		4C9F94CD1643622700A562B9 /* UIImagePatternCarbonFiber@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImagePatternCarbonFiber@2x.png"; sourceTree = "<group>"; };
 		4CA3870923A1BFD5009F34D0 /* MTControlDisplayState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTControlDisplayState.h; sourceTree = "<group>"; };
 		4CA5E95111B6C77500A29640 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		4CA9D79210B4849B00EF444E /* 2291.plist */ = {isa = PBXFileReference; comments = "This file is used to store the game state when a player quits early."; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 2291.plist; sourceTree = "<group>"; };
+		4CA9D79210B4849B00EF444E /* restart.plist */ = {isa = PBXFileReference; comments = "This file is used to store the game state when a player quits early."; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = restart.plist; sourceTree = "<group>"; };
 		4CAD1B53151EE66600A71667 /* TableViewControllerPreLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerPreLevel.h; sourceTree = "<group>"; };
 		4CAD1B54151EE66700A71667 /* TableViewControllerPreLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerPreLevel.m; sourceTree = "<group>"; };
 		4CAD1B56151EE69500A71667 /* TableViewControllerPostLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerPostLevel.h; sourceTree = "<group>"; };
@@ -980,7 +980,7 @@
 				4C8465192CE891EE00C7B858 /* MUITableViewCellIntroductionButton.xib */,
 				4CE23137156D71DD006ACE14 /* achievementlinks.plist */,
 				4CE219CB10A31B88005F79BE /* settings.plist */,
-				4CA9D79210B4849B00EF444E /* 2291.plist */,
+				4CA9D79210B4849B00EF444E /* restart.plist */,
 				4C5EE27C103B79AE00B4B3B7 /* dist.plist */,
 				4C23B1CC112E2D26003A08F6 /* dat.plist */,
 				4CB1760410EEC2E4000B9096 /* points.plist */,
@@ -1521,7 +1521,7 @@
 				4C6506C8106570E400542856 /* MUIImageGradentControl.png in Resources */,
 				4C6506D1106570E400542856 /* MUIImageShuffle.png in Resources */,
 				4CE219CC10A31B88005F79BE /* settings.plist in Resources */,
-				4CA9D79310B4849B00EF444E /* 2291.plist in Resources */,
+				4CA9D79310B4849B00EF444E /* restart.plist in Resources */,
 				4CED223A10EA48D70031BA1D /* Localizable.strings in Resources */,
 				4C45CB3D10EAB5DB00B94EE2 /* letters.plist in Resources */,
 				4CBFAB4C23CA7828002FBBA8 /* MTGameMenu.xib in Resources */,
@@ -1622,7 +1622,7 @@
 				4C4A90F018CBAF3900C35BA1 /* MUIImageGradentControl.png in Resources */,
 				4C4A90F118CBAF3900C35BA1 /* MUIImageShuffle.png in Resources */,
 				4C4A90F418CBAF3900C35BA1 /* settings.plist in Resources */,
-				4C4A90F518CBAF3900C35BA1 /* 2291.plist in Resources */,
+				4C4A90F518CBAF3900C35BA1 /* restart.plist in Resources */,
 				4C4A90F618CBAF3900C35BA1 /* Localizable.strings in Resources */,
 				4C4A90F718CBAF3900C35BA1 /* letters.plist in Resources */,
 				4C4A90F818CBAF3900C35BA1 /* points.plist in Resources */,
@@ -1713,7 +1713,7 @@
 				4CC6455C157E418E003AE579 /* MUIImageGradentControl.png in Resources */,
 				4CC6455D157E418E003AE579 /* MUIImageShuffle.png in Resources */,
 				4CC64560157E418E003AE579 /* settings.plist in Resources */,
-				4CC64561157E418E003AE579 /* 2291.plist in Resources */,
+				4CC64561157E418E003AE579 /* restart.plist in Resources */,
 				4CC64562157E418E003AE579 /* Localizable.strings in Resources */,
 				4CC64563157E418E003AE579 /* letters.plist in Resources */,
 				4CC64564157E418E003AE579 /* points.plist in Resources */,
