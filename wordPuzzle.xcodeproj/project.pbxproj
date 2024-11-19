@@ -629,6 +629,7 @@
 		4C9B98AD151D18DD00D76F24 /* UIImageRetroBlueCircles@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImageRetroBlueCircles@2x.png"; sourceTree = "<group>"; };
 		4C9B98B0151D1A8400D76F24 /* UIImageGearsBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIImageGearsBlue.png; sourceTree = "<group>"; };
 		4C9B98B1151D1A8400D76F24 /* UIImageGearsBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImageGearsBlue@2x.png"; sourceTree = "<group>"; };
+		4C9BAEB22CEC24AD009684A3 /* NAVIGATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NAVIGATION.md; sourceTree = "<group>"; };
 		4C9E3A41158B59A20053D926 /* wordPuzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wordPuzzle.entitlements; sourceTree = "<group>"; };
 		4C9E524910AEE6B500790826 /* MUIViewControllerWebBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIViewControllerWebBrowser.h; sourceTree = "<group>"; };
 		4C9E524A10AEE6B500790826 /* MUIViewControllerWebBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIViewControllerWebBrowser.m; sourceTree = "<group>"; };
@@ -908,6 +909,7 @@
 				4C4FDCE611F246AF00CC4CA1 /* README.md */,
 				4C8464E52CE7870A00C7B858 /* LICENSE.md */,
 				4C65F5BB297EFE6F00374D7D /* TODO.md */,
+				4C9BAEB22CEC24AD009684A3 /* NAVIGATION.md */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
