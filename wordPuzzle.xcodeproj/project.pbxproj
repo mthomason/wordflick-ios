@@ -98,8 +98,6 @@
 		4C4A91F218CBAF3900C35BA1 /* MUIImageButtonMoneyBags@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757541574820700E1DA6E /* MUIImageButtonMoneyBags@2x.png */; };
 		4C4A91F318CBAF3900C35BA1 /* MUIImageButtonMoneyBagsActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757571574836C00E1DA6E /* MUIImageButtonMoneyBagsActive.png */; };
 		4C4A91F418CBAF3900C35BA1 /* MUIImageButtonMoneyBagsActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757581574836C00E1DA6E /* MUIImageButtonMoneyBagsActive@2x.png */; };
-		4C4A91F918CBAF3900C35BA1 /* UIImagePatternMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757691574ACA200E1DA6E /* UIImagePatternMoney@2x.png */; };
-		4C4A91FA18CBAF3900C35BA1 /* UIImagePatternMoney.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7576A1574ACA700E1DA6E /* UIImagePatternMoney.png */; };
 		4C4A91FF18CBAF3900C35BA1 /* UIImageLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757731574B06200E1DA6E /* UIImageLogo@2x.png */; };
 		4C4A920018CBAF3900C35BA1 /* UIImageLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757741574B06800E1DA6E /* UIImageLogo.png */; };
 		4C4A920318CBAF3900C35BA1 /* UIImagePatternGearsWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7577F1574B5B400E1DA6E /* UIImagePatternGearsWhite@2x.png */; };
@@ -254,6 +252,12 @@
 		4CAD1B55151EE66700A71667 /* TableViewControllerPreLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD1B54151EE66700A71667 /* TableViewControllerPreLevel.m */; };
 		4CAD1B58151EE69500A71667 /* TableViewControllerPostLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD1B57151EE69500A71667 /* TableViewControllerPostLevel.m */; };
 		4CAD1B5B151EE6AA00A71667 /* TableViewControllerGameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD1B5A151EE6AA00A71667 /* TableViewControllerGameOver.m */; };
+		4CAD790D2CEC46D100658B90 /* UIImageButtonMaster.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD79072CEC46D000658B90 /* UIImageButtonMaster.png */; };
+		4CAD790E2CEC46D100658B90 /* UIImageButtonMaster@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD79082CEC46D000658B90 /* UIImageButtonMaster@3x.png */; };
+		4CAD790F2CEC46D100658B90 /* UIImageButtonMaster@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD79092CEC46D000658B90 /* UIImageButtonMaster@2x.png */; };
+		4CAD79102CEC46D100658B90 /* UIImageButtonMasterActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD790A2CEC46D000658B90 /* UIImageButtonMasterActive@2x.png */; };
+		4CAD79112CEC46D100658B90 /* UIImageButtonMasterActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD790B2CEC46D000658B90 /* UIImageButtonMasterActive.png */; };
+		4CAD79122CEC46D100658B90 /* UIImageButtonMasterActive@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD790C2CEC46D000658B90 /* UIImageButtonMasterActive@3x.png */; };
 		4CB1760610EEC2E4000B9096 /* points.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB1760410EEC2E4000B9096 /* points.plist */; };
 		4CB757551574820800E1DA6E /* MUIImageButtonMoneyBags.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757531574820700E1DA6E /* MUIImageButtonMoneyBags.png */; };
 		4CB757561574820800E1DA6E /* MUIImageButtonMoneyBags@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757541574820700E1DA6E /* MUIImageButtonMoneyBags@2x.png */; };
@@ -261,8 +265,6 @@
 		4CB7575A1574836D00E1DA6E /* MUIImageButtonMoneyBagsActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757581574836C00E1DA6E /* MUIImageButtonMoneyBagsActive@2x.png */; };
 		4CB7575F1574866200E1DA6E /* MUIViewControllerLoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7575D1574866200E1DA6E /* MUIViewControllerLoot.m */; };
 		4CB757601574866200E1DA6E /* MUIViewControllerSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7575E1574866200E1DA6E /* MUIViewControllerSettings.m */; };
-		4CB7576B1574ACAF00E1DA6E /* UIImagePatternMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757691574ACA200E1DA6E /* UIImagePatternMoney@2x.png */; };
-		4CB7576C1574ACAF00E1DA6E /* UIImagePatternMoney.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7576A1574ACA700E1DA6E /* UIImagePatternMoney.png */; };
 		4CB7577B1574B08000E1DA6E /* UIImageLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757731574B06200E1DA6E /* UIImageLogo@2x.png */; };
 		4CB7577C1574B08000E1DA6E /* UIImageLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757741574B06800E1DA6E /* UIImageLogo.png */; };
 		4CB757811574B5C000E1DA6E /* UIImagePatternGearsWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7577F1574B5B400E1DA6E /* UIImagePatternGearsWhite@2x.png */; };
@@ -345,8 +347,6 @@
 		4CC64672157E418E003AE579 /* MUIImageButtonMoneyBags@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757541574820700E1DA6E /* MUIImageButtonMoneyBags@2x.png */; };
 		4CC64673157E418E003AE579 /* MUIImageButtonMoneyBagsActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757571574836C00E1DA6E /* MUIImageButtonMoneyBagsActive.png */; };
 		4CC64674157E418E003AE579 /* MUIImageButtonMoneyBagsActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757581574836C00E1DA6E /* MUIImageButtonMoneyBagsActive@2x.png */; };
-		4CC64679157E418E003AE579 /* UIImagePatternMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757691574ACA200E1DA6E /* UIImagePatternMoney@2x.png */; };
-		4CC6467A157E418E003AE579 /* UIImagePatternMoney.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7576A1574ACA700E1DA6E /* UIImagePatternMoney.png */; };
 		4CC6467F157E418E003AE579 /* UIImageLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757731574B06200E1DA6E /* UIImageLogo@2x.png */; };
 		4CC64680157E418E003AE579 /* UIImageLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB757741574B06800E1DA6E /* UIImageLogo.png */; };
 		4CC64683157E418E003AE579 /* UIImagePatternGearsWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7577F1574B5B400E1DA6E /* UIImagePatternGearsWhite@2x.png */; };
@@ -650,6 +650,12 @@
 		4CAD1B57151EE69500A71667 /* TableViewControllerPostLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerPostLevel.m; sourceTree = "<group>"; };
 		4CAD1B59151EE6AA00A71667 /* TableViewControllerGameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerGameOver.h; sourceTree = "<group>"; };
 		4CAD1B5A151EE6AA00A71667 /* TableViewControllerGameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerGameOver.m; sourceTree = "<group>"; };
+		4CAD79072CEC46D000658B90 /* UIImageButtonMaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIImageButtonMaster.png; path = Resources/Images/UIImageButtonMaster.png; sourceTree = "<group>"; };
+		4CAD79082CEC46D000658B90 /* UIImageButtonMaster@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIImageButtonMaster@3x.png"; path = "Resources/Images/UIImageButtonMaster@3x.png"; sourceTree = "<group>"; };
+		4CAD79092CEC46D000658B90 /* UIImageButtonMaster@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIImageButtonMaster@2x.png"; path = "Resources/Images/UIImageButtonMaster@2x.png"; sourceTree = "<group>"; };
+		4CAD790A2CEC46D000658B90 /* UIImageButtonMasterActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIImageButtonMasterActive@2x.png"; path = "Resources/Images/UIImageButtonMasterActive@2x.png"; sourceTree = "<group>"; };
+		4CAD790B2CEC46D000658B90 /* UIImageButtonMasterActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIImageButtonMasterActive.png; path = Resources/Images/UIImageButtonMasterActive.png; sourceTree = "<group>"; };
+		4CAD790C2CEC46D000658B90 /* UIImageButtonMasterActive@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIImageButtonMasterActive@3x.png"; path = "Resources/Images/UIImageButtonMasterActive@3x.png"; sourceTree = "<group>"; };
 		4CB1760510EEC2E4000B9096 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/points.plist; sourceTree = "<group>"; };
 		4CB1760710EEC2F6000B9096 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/points.plist; sourceTree = "<group>"; };
 		4CB1760A10EEC30E000B9096 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/points.plist; sourceTree = "<group>"; };
@@ -661,8 +667,6 @@
 		4CB7575C1574866200E1DA6E /* MUIViewControllerSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIViewControllerSettings.h; sourceTree = "<group>"; };
 		4CB7575D1574866200E1DA6E /* MUIViewControllerLoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIViewControllerLoot.m; sourceTree = "<group>"; };
 		4CB7575E1574866200E1DA6E /* MUIViewControllerSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIViewControllerSettings.m; sourceTree = "<group>"; };
-		4CB757691574ACA200E1DA6E /* UIImagePatternMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImagePatternMoney@2x.png"; sourceTree = "<group>"; };
-		4CB7576A1574ACA700E1DA6E /* UIImagePatternMoney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIImagePatternMoney.png; sourceTree = "<group>"; };
 		4CB757731574B06200E1DA6E /* UIImageLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImageLogo@2x.png"; sourceTree = "<group>"; };
 		4CB757741574B06800E1DA6E /* UIImageLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIImageLogo.png; sourceTree = "<group>"; };
 		4CB7577F1574B5B400E1DA6E /* UIImagePatternGearsWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIImagePatternGearsWhite@2x.png"; sourceTree = "<group>"; };
@@ -962,6 +966,12 @@
 		4C07C46129A09EF7006A83A6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4CAD79072CEC46D000658B90 /* UIImageButtonMaster.png */,
+				4CAD79092CEC46D000658B90 /* UIImageButtonMaster@2x.png */,
+				4CAD79082CEC46D000658B90 /* UIImageButtonMaster@3x.png */,
+				4CAD790B2CEC46D000658B90 /* UIImageButtonMasterActive.png */,
+				4CAD790A2CEC46D000658B90 /* UIImageButtonMasterActive@2x.png */,
+				4CAD790C2CEC46D000658B90 /* UIImageButtonMasterActive@3x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -970,7 +980,6 @@
 			isa = PBXGroup;
 			children = (
 				4C07C46129A09EF7006A83A6 /* Images */,
-				4C40F133297640B9007F2308 /* Localization */,
 				4CE1B24123AB2FF500457A92 /* Sounds */,
 				4C930F2318CCC0E2009FFB70 /* Storyboards */,
 				4C187BCA110C1CD400917B1C /* index.dat */,
@@ -1036,8 +1045,6 @@
 				4C923539155A914F0089F3C9 /* UIImagePatternClouds3@2x.png */,
 				4C9B98B0151D1A8400D76F24 /* UIImageGearsBlue.png */,
 				4C9B98B1151D1A8400D76F24 /* UIImageGearsBlue@2x.png */,
-				4CB7576A1574ACA700E1DA6E /* UIImagePatternMoney.png */,
-				4CB757691574ACA200E1DA6E /* UIImagePatternMoney@2x.png */,
 				4C9B98AC151D18DD00D76F24 /* UIImageRetroBlueCircles.png */,
 				4C9B98AD151D18DD00D76F24 /* UIImageRetroBlueCircles@2x.png */,
 				4C9F94CC1643622700A562B9 /* UIImagePatternCarbonFiber.png */,
@@ -1363,13 +1370,6 @@
 			path = Sqlite;
 			sourceTree = "<group>";
 		};
-		4C40F133297640B9007F2308 /* Localization */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Localization;
-			sourceTree = "<group>";
-		};
 		4C930F2318CCC0E2009FFB70 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -1553,6 +1553,7 @@
 				4CD699E311EAA2B600528897 /* MUIImageButtonTrophyActive.png in Resources */,
 				4C8464E62CE7870A00C7B858 /* LICENSE.md in Resources */,
 				4C9B98AE151D18DD00D76F24 /* UIImageRetroBlueCircles.png in Resources */,
+				4CAD79112CEC46D100658B90 /* UIImageButtonMasterActive.png in Resources */,
 				4C8465102CE88FEA00C7B858 /* Storyboard.storyboard in Resources */,
 				4C9B98AF151D18DD00D76F24 /* UIImageRetroBlueCircles@2x.png in Resources */,
 				4C9B98B2151D1A8400D76F24 /* UIImageGearsBlue.png in Resources */,
@@ -1566,23 +1567,25 @@
 				4CE22F3D156864EF006ACE14 /* UIImageMaxVol.png in Resources */,
 				4CE22F3F156864EF006ACE14 /* UIImageMaxVol@2x.png in Resources */,
 				4CE22F40156864EF006ACE14 /* UIImageMinVol.png in Resources */,
+				4CAD79102CEC46D100658B90 /* UIImageButtonMasterActive@2x.png in Resources */,
 				4CE22F42156864EF006ACE14 /* UIImageMinVol@2x.png in Resources */,
 				4C8465172CE8918300C7B858 /* StoryboardIconBuilderClassroom.storyboard in Resources */,
 				4C049A9418CD4A610029CD84 /* speaker.wave.3@2x.png in Resources */,
 				4C65F5D4297FEC1E00374D7D /* index.dat in Resources */,
 				4CE1B24523AB30B000457A92 /* Alerts in Resources */,
+				4CAD790E2CEC46D100658B90 /* UIImageButtonMaster@3x.png in Resources */,
 				4CE2306C156B6C31006ACE14 /* UIImagePatternClouds3.png in Resources */,
 				4CE2306D156B6C31006ACE14 /* UIImagePatternClouds3@2x.png in Resources */,
+				4CAD79122CEC46D100658B90 /* UIImageButtonMasterActive@3x.png in Resources */,
 				4C8465132CE8913500C7B858 /* StoryboardLaunch.storyboard in Resources */,
 				4CE23138156D71DD006ACE14 /* achievementlinks.plist in Resources */,
 				4CCA014515734768001AB243 /* UIImageRedSticker@2x.png in Resources */,
 				4CCA014615734768001AB243 /* UIImageRedSticker.png in Resources */,
 				4CB757551574820800E1DA6E /* MUIImageButtonMoneyBags.png in Resources */,
 				4CB757561574820800E1DA6E /* MUIImageButtonMoneyBags@2x.png in Resources */,
+				4CAD790F2CEC46D100658B90 /* UIImageButtonMaster@2x.png in Resources */,
 				4CB757591574836D00E1DA6E /* MUIImageButtonMoneyBagsActive.png in Resources */,
 				4CB7575A1574836D00E1DA6E /* MUIImageButtonMoneyBagsActive@2x.png in Resources */,
-				4CB7576B1574ACAF00E1DA6E /* UIImagePatternMoney@2x.png in Resources */,
-				4CB7576C1574ACAF00E1DA6E /* UIImagePatternMoney.png in Resources */,
 				4CB7577B1574B08000E1DA6E /* UIImageLogo@2x.png in Resources */,
 				4CB7577C1574B08000E1DA6E /* UIImageLogo.png in Resources */,
 				4CB757811574B5C000E1DA6E /* UIImagePatternGearsWhite@2x.png in Resources */,
@@ -1591,6 +1594,7 @@
 				4CB757861574C1D700E1DA6E /* UIImageWordflickLogo64.png in Resources */,
 				4CB75788157746B000E1DA6E /* UIButtonGreen70.png in Resources */,
 				4C84651A2CE891EE00C7B858 /* MUITableViewCellIntroductionButton.xib in Resources */,
+				4CAD790D2CEC46D100658B90 /* UIImageButtonMaster.png in Resources */,
 				4CB7578A157746C400E1DA6E /* UIButtonGreen70@2x.png in Resources */,
 				4CB7578D1577F6EA00E1DA6E /* UIButtonGreen72x37.png in Resources */,
 				4CB7578E1577F6EA00E1DA6E /* UIButtonGreen72x37@2x.png in Resources */,
@@ -1672,8 +1676,6 @@
 				4C4A91F218CBAF3900C35BA1 /* MUIImageButtonMoneyBags@2x.png in Resources */,
 				4C4A91F318CBAF3900C35BA1 /* MUIImageButtonMoneyBagsActive.png in Resources */,
 				4C4A91F418CBAF3900C35BA1 /* MUIImageButtonMoneyBagsActive@2x.png in Resources */,
-				4C4A91F918CBAF3900C35BA1 /* UIImagePatternMoney@2x.png in Resources */,
-				4C4A91FA18CBAF3900C35BA1 /* UIImagePatternMoney.png in Resources */,
 				4C8464E92CE7872600C7B858 /* LICENSE.md in Resources */,
 				4C4A91FF18CBAF3900C35BA1 /* UIImageLogo@2x.png in Resources */,
 				4C4A920018CBAF3900C35BA1 /* UIImageLogo.png in Resources */,
@@ -1762,8 +1764,6 @@
 				4CC64672157E418E003AE579 /* MUIImageButtonMoneyBags@2x.png in Resources */,
 				4CC64673157E418E003AE579 /* MUIImageButtonMoneyBagsActive.png in Resources */,
 				4CC64674157E418E003AE579 /* MUIImageButtonMoneyBagsActive@2x.png in Resources */,
-				4CC64679157E418E003AE579 /* UIImagePatternMoney@2x.png in Resources */,
-				4CC6467A157E418E003AE579 /* UIImagePatternMoney.png in Resources */,
 				4CC6467F157E418E003AE579 /* UIImageLogo@2x.png in Resources */,
 				4CC64680157E418E003AE579 /* UIImageLogo.png in Resources */,
 				4C8464E82CE7872500C7B858 /* LICENSE.md in Resources */,
