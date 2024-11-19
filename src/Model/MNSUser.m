@@ -1179,8 +1179,8 @@ static void submitAchievementWithIdentifier(MNSUser *object, NSString *identifie
 		}
 	}
 	
-	//???:OK, so we deleted any one that might have already existed... then we copy the stock one...
-	//???:Why the run around.  Why all this copying, and deleting.
+	// ???: OK, so we deleted any one that might have already existed... then we copy the stock one...
+	// ???: Why the run around.  Why all this copying, and deleting.
 
 	if (![[NSFileManager defaultManager] fileExistsAtPath:plistPath]) {	//Copy empty verison of that file
 		NSError *copyError = nil;
