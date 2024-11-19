@@ -211,7 +211,6 @@
 		4C8465102CE88FEA00C7B858 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C84650F2CE88FEA00C7B858 /* Storyboard.storyboard */; };
 		4C8465132CE8913500C7B858 /* StoryboardLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8465112CE8913500C7B858 /* StoryboardLaunch.storyboard */; };
 		4C8465142CE8913500C7B858 /* StoryboardLaunch~iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8465122CE8913500C7B858 /* StoryboardLaunch~iPad.storyboard */; };
-		4C8465172CE8918300C7B858 /* StoryboardIconBuilderClassroom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8465152CE8918300C7B858 /* StoryboardIconBuilderClassroom.storyboard */; };
 		4C8465182CE8918300C7B858 /* StoryboardIconBuilder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8465162CE8918300C7B858 /* StoryboardIconBuilder.storyboard */; };
 		4C84651A2CE891EE00C7B858 /* MUITableViewCellIntroductionButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8465192CE891EE00C7B858 /* MUITableViewCellIntroductionButton.xib */; };
 		4C8A4DA7102407D10070D86F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A4DA6102407D10070D86F /* GameKit.framework */; };
@@ -576,7 +575,6 @@
 		4C84650F2CE88FEA00C7B858 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = Resources/Storyboards/Storyboard.storyboard; sourceTree = "<group>"; };
 		4C8465112CE8913500C7B858 /* StoryboardLaunch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StoryboardLaunch.storyboard; path = Resources/Storyboards/StoryboardLaunch.storyboard; sourceTree = "<group>"; };
 		4C8465122CE8913500C7B858 /* StoryboardLaunch~iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "StoryboardLaunch~iPad.storyboard"; path = "Resources/Storyboards/StoryboardLaunch~iPad.storyboard"; sourceTree = "<group>"; };
-		4C8465152CE8918300C7B858 /* StoryboardIconBuilderClassroom.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StoryboardIconBuilderClassroom.storyboard; path = Resources/Storyboards/StoryboardIconBuilderClassroom.storyboard; sourceTree = "<group>"; };
 		4C8465162CE8918300C7B858 /* StoryboardIconBuilder.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StoryboardIconBuilder.storyboard; path = Resources/Storyboards/StoryboardIconBuilder.storyboard; sourceTree = "<group>"; };
 		4C8465192CE891EE00C7B858 /* MUITableViewCellIntroductionButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MUITableViewCellIntroductionButton.xib; path = Resources/MUITableViewCellIntroductionButton.xib; sourceTree = "<group>"; };
 		4C8A4DA6102407D10070D86F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
@@ -1372,7 +1370,6 @@
 			isa = PBXGroup;
 			children = (
 				4C8465162CE8918300C7B858 /* StoryboardIconBuilder.storyboard */,
-				4C8465152CE8918300C7B858 /* StoryboardIconBuilderClassroom.storyboard */,
 				4C8465112CE8913500C7B858 /* StoryboardLaunch.storyboard */,
 				4C84650F2CE88FEA00C7B858 /* Storyboard.storyboard */,
 				4C8465122CE8913500C7B858 /* StoryboardLaunch~iPad.storyboard */,
@@ -1567,7 +1564,6 @@
 				4CE22F40156864EF006ACE14 /* UIImageMinVol.png in Resources */,
 				4CAD79102CEC46D100658B90 /* UIImageButtonMasterActive@2x.png in Resources */,
 				4CE22F42156864EF006ACE14 /* UIImageMinVol@2x.png in Resources */,
-				4C8465172CE8918300C7B858 /* StoryboardIconBuilderClassroom.storyboard in Resources */,
 				4C049A9418CD4A610029CD84 /* speaker.wave.3@2x.png in Resources */,
 				4C65F5D4297FEC1E00374D7D /* index.dat in Resources */,
 				4CE1B24523AB30B000457A92 /* Alerts in Resources */,
