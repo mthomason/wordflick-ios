@@ -1,6 +1,6 @@
 //
 //  UIColor+Wordflick.h
-//  calCtr
+//  wordPuzzle
 //
 //  Created by Michael Thomason on 2/26/09.
 //  Copyright 2009 Michael Thomason. All rights reserved.

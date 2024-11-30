@@ -86,8 +86,8 @@ void uncaughtExceptionHandler(NSException *exception) {
 	BOOL isGameCenterApiAvailable = (gcClass && osVersionSupported);
 	
 	//Game Center Login
-	if (!isGameCenterApiAvailable) {                                // Game Center is not available.
-		[MNSUser MakeCurrentUserDefaultUser];       // Default the user.
+	if (!isGameCenterApiAvailable) {
+		[MNSUser MakeCurrentUserDefaultUser];
 		_gameCenterAuthenticationComplete = NO;
 	} else {
 		
