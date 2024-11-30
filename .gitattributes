@@ -10,8 +10,8 @@
 # Ensure SQL files are counted as code
 *.sql linguist-language=SQL
 
-# Treat `.c` files as C
-*.c linguist-language=C
+# Ignore `.c` files
+*.c linguist-detectable=false
 
 # --- Vendored and Ignored Files ---
 # Ignore unnecessary files from language statistics
