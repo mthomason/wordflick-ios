@@ -12,16 +12,6 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-**Exclusions**  
-This license does not cover certain assets and libraries used in the software:
-- **SQLite3 Amalgamation**: Licensed under its own terms. Refer to the SQLite website for details: https://www.sqlite.org/copyright.html
-- **7 Dicts**: Licensed under its own terms. Refer to its documentation or associated license.
-- **Pattern images and icons**: These assets are excluded from this license. Ensure proper usage according to their original licenses.
-
-**Name and Logo Restriction**  
-The name "Wordflick" and its associated logos are excluded from this license.  
-You may not use the name "Wordflick" or any logos or trademarks associated with it for any purpose, including promoting derivative works or related projects, without explicit written permission from the copyright holder.
-
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
