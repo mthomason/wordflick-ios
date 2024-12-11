@@ -29,11 +29,12 @@ static DatabaseWords *_sharedInstance = nil;
 #pragma mark Static functions
 
 inline static NSString *_randomLetter(void);
+static bool searchBinary(const char *, int, int, int (^)(const char *, int));
+
 inline static NSString *_randomLetter(void) {
 	return _letters[arc4random_uniform((uint32_t)_letters.count)];
 }
 
-static bool searchBinary(const char *, int, int, int (^)(const char *, int));
 static bool searchBinary(const char *t, int low, int high, int (^cmp)(const char *, int)) {
 	if (t == 0) return false;
 	while (low <= high) {
