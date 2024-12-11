@@ -107,6 +107,10 @@ git push origin feature-or-fix-name
 
 This project is licensed under the MIT License. See the LICENSE.md file for details.
 
+### Additional Exclusions
+
+Some assets and components are not covered under the MIT License. Please refer to the `EXCLUSIONS.md` file for details on these exclusions and special terms.
+
 ### Name and Logo Usage
 
 The name "Wordflick" and associated logos are not covered by the MIT License and may not be used without explicit permission from the copyright holder.
